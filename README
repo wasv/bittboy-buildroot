@@ -1,3 +1,7 @@
+To create a toolchain for a PocketGo run `make pocketgo_defconfig` then `make sdk`
+
+--- Old README ---
+
 Buildroot is a simple, efficient and easy-to-use tool to generate embedded
 Linux systems through cross-compilation.
 
@@ -7,7 +11,7 @@ Online documentation can be found at http://buildroot.org/docs.html
 
 To build and use the buildroot stuff, do the following:
 
-1) run 'make menuconfig'
+1) run 'make pocketgo_defconfig'
 2) select the target architecture and the packages you wish to compile
 3) run 'make'
 4) wait while it compiles
